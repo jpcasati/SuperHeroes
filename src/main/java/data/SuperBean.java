@@ -34,6 +34,11 @@ public class SuperBean {
         this.superName = "";
         this.wage = BigDecimal.ZERO;
     }
+
+    @Override
+    public String toString() {
+        return "SuperBean{" + "id=" + id + ", fullName=" + fullName + ", superName=" + superName + ", wage=" + wage + '}';
+    }
     
     public int getId() {
         return id;
